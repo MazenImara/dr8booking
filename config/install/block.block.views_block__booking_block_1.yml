@@ -8,7 +8,7 @@ dependencies:
     - system
     - views
 id: views_block__booking_block_1
-theme: {}
+theme: bartik
 region: content
 weight: 0
 provider: null
