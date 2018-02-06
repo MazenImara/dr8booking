@@ -1,0 +1,21 @@
+uuid: 80cb1e1d-c631-4992-bfec-94978ce4a869
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_item_start_time
+    - node.type.booking_item
+id: node.booking_item.field_book_item_start_time
+field_name: field_book_item_start_time
+entity_type: node
+bundle: booking_item
+label: 'Start time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1516367697
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

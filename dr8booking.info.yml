@@ -1,0 +1,5 @@
+name: 'D 8 Booking'
+description: 'Custom module for booking using drupal user system'
+type: module
+package: Storleden
+core: 8.x

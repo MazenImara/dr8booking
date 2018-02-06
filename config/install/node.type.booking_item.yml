@@ -1,0 +1,18 @@
+uuid: 29c29f9d-4a28-4e86-b4ce-22d9be51f53d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Booking item'
+type: booking_item
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,21 @@
+uuid: e5b7c34f-abfe-4fe1-a2e8-8286fe891b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_item_end_time
+    - node.type.booking_item
+id: node.booking_item.field_book_item_end_time
+field_name: field_book_item_end_time
+entity_type: node
+bundle: booking_item
+label: 'End time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1516367737
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

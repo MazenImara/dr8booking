@@ -1,0 +1,32 @@
+# Pages
+dr8booking.book:
+  path: '/booking/book/{nid}/{samePage}'
+  defaults:
+    _controller: '\Drupal\dr8booking\Controller\bookingController::book'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+
+dr8booking.cancel:
+  path: '/booking/cancel/{nid}'
+  defaults:
+    _controller: '\Drupal\dr8booking\Controller\bookingController::cancel'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+
+dr8booking.mybooking:
+  path: '/mybooking'
+  defaults:
+    _controller: '\Drupal\dr8booking\Controller\bookingController::myBooking'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+
+dr8booking.test:
+  path: '/test'
+  defaults:
+    _controller: '\Drupal\dr8booking\Controller\bookingController::test'
+    _title: ''
+  requirements:
+    _permission: 'access content'

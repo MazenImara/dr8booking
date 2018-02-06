@@ -1,0 +1,28 @@
+uuid: a98a10da-9e68-4838-8d15-b423c6bcfe73
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.booking
+  module:
+    - system
+    - views
+id: views_block__booking_block_1
+theme: {}
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:booking-block_1'
+settings:
+  id: 'views_block:booking-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/bookingitems\r\n/mybookeditems/*"
+    negate: true
+    context_mapping: {  }

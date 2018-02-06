@@ -1,0 +1,11 @@
+dr8booking.bookingItems:
+  title: 'Booking Items'
+  description: ''
+  parent: system.admin
+  route_name: view.booking.page_1
+
+booking.mybooking:
+  title: 'My booking'
+  description: ''
+  parent: dr8booking.bookingItems
+  route_name: dr8booking.mybooking

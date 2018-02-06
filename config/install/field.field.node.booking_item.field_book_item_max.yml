@@ -1,0 +1,25 @@
+uuid: 15294f37-5937-49e1-8ca2-f77af2d2cfa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_item_max
+    - node.type.booking_item
+id: node.booking_item.field_book_item_max
+field_name: field_book_item_max
+entity_type: node
+bundle: booking_item
+label: Max
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

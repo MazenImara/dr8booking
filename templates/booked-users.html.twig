@@ -1,0 +1,11 @@
+
+{% if content.showUsers == true %}
+  <h3>{{'Users have booked this:'|trans}} </h3>
+  {% for user in content.users %}
+      name: {{user.name}}<br>
+      email: {{user.email}}<br><br>
+  {% endfor %}
+{% endif %}
+
+
+

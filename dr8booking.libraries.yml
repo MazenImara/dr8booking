@@ -1,0 +1,12 @@
+dr8booking_lib:
+  css:
+    layout:
+      css/main.css: {}
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.cookie
+    - core/drupal.ajax
+    - core/drupalSettings

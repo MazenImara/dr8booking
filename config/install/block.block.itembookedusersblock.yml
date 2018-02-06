@@ -1,0 +1,26 @@
+uuid: 037078f1-f83b-46e4-967c-712a9ecaf628
+langcode: en
+status: true
+dependencies:
+  module:
+    - dr8booking
+    - node
+id: itembookedusersblock
+theme: {}
+region: content
+weight: 0
+provider: null
+plugin: item_booked_users
+settings:
+  id: item_booked_users
+  label: 'Item booked users block'
+  provider: dr8booking
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      booking_item: booking_item
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

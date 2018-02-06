@@ -1,0 +1,24 @@
+uuid: 73f2d293-9a25-4df1-a94b-a415555fb478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_item_link
+    - node.type.booking_item
+  module:
+    - text
+id: node.booking_item.field_book_item_link
+field_name: field_book_item_link
+entity_type: node
+bundle: booking_item
+label: 'Book link'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: "<p><a class=\"book_link_node\" href=\"#\">Book</a></p>\r\n"
+    format: full_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

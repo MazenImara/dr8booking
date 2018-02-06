@@ -1,0 +1,23 @@
+uuid: 5215b0a2-a1e2-45ef-8140-bb3e809e60d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_book_item_status
+    - node.type.booking_item
+id: node.booking_item.field_book_item_status
+field_name: field_book_item_status
+entity_type: node
+bundle: booking_item
+label: status
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

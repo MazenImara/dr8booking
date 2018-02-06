@@ -1,0 +1,22 @@
+uuid: 863a906a-7931-4c99-86cc-48c7928b80c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.booking_item
+  module:
+    - text
+id: node.booking_item.body
+field_name: body
+entity_type: node
+bundle: booking_item
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
